@@ -105,13 +105,13 @@
 #undef HAVE_DISKARBITRATION_DISKARBITRATION_H
 
 /* Define to 1 if you have the `dladdr' function. */
-#undef HAVE_DLADDR
+#cmakedefine HAVE_DLADDR 1
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
-#undef HAVE_DLFCN_H
+#cmakedefine HAVE_DLFCN_H 1
 
 /* Define to 1 if you have the `dlinfo' function. */
-#undef HAVE_DLINFO
+#cmakedefine HAVE_DLINFO 1
 
 /* Define to 1 if you have the <EGL/egl.h> header file. */
 #undef HAVE_EGL_EGL_H

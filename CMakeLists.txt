@@ -5,8 +5,28 @@ version_from_git(INCLUDE_HASH ON)
 
 project(wine VERSION ${VERSION})
 
+include(CheckIncludeFile)
 include(CheckLibraryExists)
 include(CheckSymbolExists)
+
+check_symbol_exists(__GLIBC__ "features.h" HAVE_GLIBC)
+
+if (HAVE_GLIBC)
+    add_compile_definitions(_GNU_SOURCE)
+    set(CMAKE_REQUIRED_DEFINITIONS -D_GNU_SOURCE)
+endif()
+
+check_include_file(dlfcn.h HAVE_DLFCN_H)
+
+check_library_exists(dl dlopen "" HAVE_LIBDL)
+
+if(HAVE_LIBDL)
+    set(CMAKE_REQUIRED_LIBRARIES dl)
+endif()
+check_symbol_exists(dlopen dlfcn.h HAVE_DLOPEN)
+check_symbol_exists(dladdr dlfcn.h HAVE_DLADDR)
+check_symbol_exists(dlinfo link.h;dlfcn.h HAVE_DLINFO)
+unset(CMAKE_REQUIRED_LIBRARIES)
 
 check_library_exists(m acosh "" HAVE_LIBM)
 
