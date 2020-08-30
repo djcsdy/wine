@@ -10,10 +10,10 @@
 #undef EXEEXT
 
 /* Define to 1 if you have the `acosh' function. */
-#undef HAVE_ACOSH
+#cmakedefine HAVE_ACOSH 1
 
 /* Define to 1 if you have the `acoshf' function. */
-#undef HAVE_ACOSHF
+#cmakedefine HAVE_ACOSHF 1
 
 /* Define to 1 if you have the <alias.h> header file. */
 #undef HAVE_ALIAS_H
@@ -32,10 +32,10 @@
 #undef HAVE_ARPA_NAMESER_H
 
 /* Define to 1 if you have the `asinh' function. */
-#undef HAVE_ASINH
+#cmakedefine HAVE_ASINH 1
 
 /* Define to 1 if you have the `asinhf' function. */
-#undef HAVE_ASINHF
+#cmakedefine HAVE_ASINHF 1
 
 /* Define to 1 if you have the <asm/types.h> header file. */
 #undef HAVE_ASM_TYPES_H
@@ -44,10 +44,10 @@
 #undef HAVE_ASM_USER_H
 
 /* Define to 1 if you have the `atanh' function. */
-#undef HAVE_ATANH
+#cmakedefine HAVE_ATANH 1
 
 /* Define to 1 if you have the `atanhf' function. */
-#undef HAVE_ATANHF
+#cmakedefine HAVE_ATANHF 1
 
 /* Define to 1 if you have the <AudioToolbox/AudioConverter.h> header file. */
 #undef HAVE_AUDIOTOOLBOX_AUDIOCONVERTER_H
@@ -68,10 +68,10 @@
 #undef HAVE_CARBON_CARBON_H
 
 /* Define to 1 if you have the `cbrt' function. */
-#undef HAVE_CBRT
+#cmakedefine HAVE_CBRT 1
 
 /* Define to 1 if you have the `cbrtf' function. */
-#undef HAVE_CBRTF
+#cmakedefine HAVE_CBRTF 1
 
 /* Define to 1 if you have the `clock_gettime' function. */
 #undef HAVE_CLOCK_GETTIME
@@ -123,28 +123,28 @@
 #undef HAVE_EPOLL_CREATE
 
 /* Define to 1 if you have the `erf' function. */
-#undef HAVE_ERF
+#cmakedefine HAVE_ERF 1
 
 /* Define to 1 if you have the `erfc' function. */
-#undef HAVE_ERFC
+#cmakedefine HAVE_ERFC 1
 
 /* Define to 1 if you have the `erfcf' function. */
-#undef HAVE_ERFCF
+#cmakedefine HAVE_ERFCF 1
 
 /* Define to 1 if you have the `erff' function. */
-#undef HAVE_ERFF
+#cmakedefine HAVE_ERFF 1
 
 /* Define to 1 if you have the `exp2' function. */
-#undef HAVE_EXP2
+#cmakedefine HAVE_EXP2 1
 
 /* Define to 1 if you have the `exp2f' function. */
-#undef HAVE_EXP2F
+#cmakedefine HAVE_EXP2F 1
 
 /* Define to 1 if you have the `expm1' function. */
-#undef HAVE_EXPM1
+#cmakedefine HAVE_EXPM1 1
 
 /* Define to 1 if you have the `expm1f' function. */
-#undef HAVE_EXPM1F
+#cmakedefine HAVE_EXPM1F 1
 
 /* Define to 1 if you have the `F3DAudioInitialize8' function. */
 #undef HAVE_F3DAUDIOINITIALIZE8
@@ -178,10 +178,10 @@
 #undef HAVE_FLOAT_H
 
 /* Define to 1 if you have the `fma' function. */
-#undef HAVE_FMA
+#cmakedefine HAVE_FMA 1
 
 /* Define to 1 if you have the `fmaf' function. */
-#undef HAVE_FMAF
+#cmakedefine HAVE_FMAF 1
 
 /* Define to 1 if you have the `fnmatch' function. */
 #undef HAVE_FNMATCH
@@ -292,10 +292,10 @@
 #undef HAVE_IF_NAMEINDEX
 
 /* Define to 1 if you have the `ilogb' function. */
-#undef HAVE_ILOGB
+#cmakedefine HAVE_ILOGB 1
 
 /* Define to 1 if you have the `ilogbf' function. */
-#undef HAVE_ILOGBF
+#cmakedefine HAVE_ILOGBF 1
 
 /* Define to 1 if you have the <inet/mib2.h> header file. */
 #undef HAVE_INET_MIB2_H
@@ -322,13 +322,13 @@
 #undef HAVE_ISNAN
 
 /* Define to 1 if you have the `j0' function. */
-#undef HAVE_J0
+#cmakedefine HAVE_J0 1
 
 /* Define to 1 if you have the `j1' function. */
-#undef HAVE_J1
+#cmakedefine HAVE_J1 1
 
 /* Define to 1 if you have the `jn' function. */
-#undef HAVE_JN
+#cmakedefine HAVE_JN 1
 
 /* Define to 1 if you have the <jpeglib.h> header file. */
 #undef HAVE_JPEGLIB_H
@@ -382,10 +382,10 @@
 #undef HAVE_LDAP_PARSE_VLV_CONTROL
 
 /* Define to 1 if you have the `lgamma' function. */
-#undef HAVE_LGAMMA
+#cmakedefine HAVE_LGAMMA 1
 
 /* Define to 1 if you have the `lgammaf' function. */
-#undef HAVE_LGAMMAF
+#cmakedefine HAVE_LGAMMAF 1
 
 /* Define to 1 if you have the `gettextpo' library (-lgettextpo). */
 #undef HAVE_LIBGETTEXTPO
@@ -496,40 +496,40 @@
 #undef HAVE_LINUX_VIDEODEV2_H
 
 /* Define to 1 if you have the `llrint' function. */
-#undef HAVE_LLRINT
+#cmakedefine HAVE_LLRINT 1
 
 /* Define to 1 if you have the `llrintf' function. */
-#undef HAVE_LLRINTF
+#cmakedefine HAVE_LLRINTF 1
 
 /* Define to 1 if you have the `llround' function. */
-#undef HAVE_LLROUND
+#cmakedefine HAVE_LLROUND 1
 
 /* Define to 1 if you have the `llroundf' function. */
-#undef HAVE_LLROUNDF
+#cmakedefine HAVE_LLROUNDF 1
 
 /* Define to 1 if you have the `log1p' function. */
-#undef HAVE_LOG1P
+#cmakedefine HAVE_LOG1P 1
 
 /* Define to 1 if you have the `log1pf' function. */
-#undef HAVE_LOG1PF
+#cmakedefine HAVE_LOG1PF 1
 
 /* Define to 1 if you have the `log2' function. */
-#undef HAVE_LOG2
+#cmakedefine HAVE_LOG2 1
 
 /* Define to 1 if you have the `log2f' function. */
-#undef HAVE_LOG2F
+#cmakedefine HAVE_LOG2F 1
 
 /* Define to 1 if you have the `lrint' function. */
-#undef HAVE_LRINT
+#cmakedefine HAVE_LRINT 1
 
 /* Define to 1 if you have the `lrintf' function. */
-#undef HAVE_LRINTF
+#cmakedefine HAVE_LRINTF 1
 
 /* Define to 1 if you have the `lround' function. */
-#undef HAVE_LROUND
+#cmakedefine HAVE_LROUND 1
 
 /* Define to 1 if you have the `lroundf' function. */
-#undef HAVE_LROUNDF
+#cmakedefine HAVE_LROUNDF 1
 
 /* Define to 1 if you have the `lstat' function. */
 #undef HAVE_LSTAT
@@ -580,10 +580,10 @@
 #undef HAVE_NCURSES_H
 
 /* Define to 1 if you have the `nearbyint' function. */
-#undef HAVE_NEARBYINT
+#cmakedefine HAVE_NEARBYINT 1
 
 /* Define to 1 if you have the `nearbyintf' function. */
-#undef HAVE_NEARBYINTF
+#cmakedefine HAVE_NEARBYINTF 1
 
 /* Define to 1 if you have the <netdb.h> header file. */
 #undef HAVE_NETDB_H
@@ -652,10 +652,10 @@
 #undef HAVE_NET_ROUTE_H
 
 /* Define to 1 if you have the `nexttoward' function. */
-#undef HAVE_NEXTTOWARD
+#cmakedefine HAVE_NEXTTOWARD 1
 
 /* Define to 1 if you have the `nexttowardf' function. */
-#undef HAVE_NEXTTOWARDF
+#cmakedefine HAVE_NEXTTOWARDF 1
 
 /* Define to 1 if `_msg_ptr' is a member of `ns_msg'. */
 #undef HAVE_NS_MSG__MSG_PTR
@@ -730,16 +730,16 @@
 #undef HAVE_READLINK
 
 /* Define to 1 if you have the `remainder' function. */
-#undef HAVE_REMAINDER
+#cmakedefine HAVE_REMAINDER 1
 
 /* Define to 1 if you have the `remainderf' function. */
-#undef HAVE_REMAINDERF
+#cmakedefine HAVE_REMAINDERF 1
 
 /* Define to 1 if you have the `remquo' function. */
-#undef HAVE_REMQUO
+#cmakedefine HAVE_REMQUO 1
 
 /* Define to 1 if you have the `remquof' function. */
-#undef HAVE_REMQUOF
+#cmakedefine HAVE_REMQUOF 1
 
 /* Define to 1 if the system has the type `request_sense'. */
 #undef HAVE_REQUEST_SENSE
@@ -754,16 +754,16 @@
 #undef HAVE_RES_GETSERVERS
 
 /* Define to 1 if you have the `rint' function. */
-#undef HAVE_RINT
+#cmakedefine HAVE_RINT 1
 
 /* Define to 1 if you have the `rintf' function. */
-#undef HAVE_RINTF
+#cmakedefine HAVE_RINTF 1
 
 /* Define to 1 if you have the `round' function. */
-#undef HAVE_ROUND
+#cmakedefine HAVE_ROUND 1
 
 /* Define to 1 if you have the `roundf' function. */
-#undef HAVE_ROUNDF
+#cmakedefine HAVE_ROUNDF 1
 
 /* Define to 1 if you have the <sasl/sasl.h> header file. */
 #undef HAVE_SASL_SASL_H
@@ -1152,10 +1152,10 @@
 #undef HAVE_TERMIOS_H
 
 /* Define to 1 if you have the `tgamma' function. */
-#undef HAVE_TGAMMA
+#cmakedefine HAVE_TGAMMA 1
 
 /* Define to 1 if you have the `tgammaf' function. */
-#undef HAVE_TGAMMAF
+#cmakedefine HAVE_TGAMMAF 1
 
 /* Define to 1 if you have the `thr_kill2' function. */
 #undef HAVE_THR_KILL2
@@ -1164,10 +1164,10 @@
 #undef HAVE_TIFFIO_H
 
 /* Define to 1 if you have the `trunc' function. */
-#undef HAVE_TRUNC
+#cmakedefine HAVE_TRUNC 1
 
 /* Define to 1 if you have the `truncf' function. */
-#undef HAVE_TRUNCF
+#cmakedefine HAVE_TRUNCF 1
 
 /* Define to 1 if you have the `udev' library (-ludev). */
 #undef HAVE_UDEV
@@ -1269,13 +1269,13 @@
 #undef HAVE_XRRGETPROVIDERRESOURCES
 
 /* Define to 1 if you have the `y0' function. */
-#undef HAVE_Y0
+#cmakedefine HAVE_Y0 1
 
 /* Define to 1 if you have the `y1' function. */
-#undef HAVE_Y1
+#cmakedefine HAVE_Y1 1
 
 /* Define to 1 if you have the `yn' function. */
-#undef HAVE_YN
+#cmakedefine HAVE_YN 1
 
 /* Define to 1 if you have the `_spawnvp' function. */
 #undef HAVE__SPAWNVP
